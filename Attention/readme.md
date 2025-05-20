@@ -54,8 +54,8 @@ target_language_text \t source_language_text \t count
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/attention-transliteration.git
-   cd attention-transliteration
+   git clone https://github.com/Rajnishmaurya/da6401_assignment3
+   cd da6401_assignment3
    ```
 
 2. Install dependencies:
