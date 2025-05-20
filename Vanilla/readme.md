@@ -49,6 +49,21 @@ Each file contains tab-separated values with the following format:
 target_word    source_word    count
 ```
 
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rajnishmaurya/da6401_assignment3
+   cd da6401_assignment3
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install torch pandas numpy matplotlib seaborn wandb tqdm
+   ```
+
+3. Download the Dakshina dataset from the [official source](https://github.com/google-research-datasets/dakshina) or prepare your own transliteration dataset in the required format.
+
 ## Usage
 
 ### Training
