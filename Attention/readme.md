@@ -108,7 +108,7 @@ python evaluate.py --model_path best_model.pth --data_path /path/to/test_data
 
 The model includes functionality to visualize attention weights, showing how the decoder attends to different parts of the input sequence at each decoding step:
 
-![Attention Heatmap](C:\Users\Rajnish\Desktop\Rajnish\da6401_assignment3\heatmaps\allHeatMaps.png)
+![Attention Heatmap](allHeatMaps.png)
 
 The attention heatmaps demonstrate how the model focuses on specific input characters when generating each output character, providing insights into the transliteration process.
 
