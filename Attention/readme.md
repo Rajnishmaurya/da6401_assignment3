@@ -9,9 +9,7 @@ This repository contains a PyTorch implementation of an attention-based sequence
 - [Dataset](#dataset)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Results](#results)
 - [Attention Visualization](#attention-visualization)
-- [Citation](#citation)
 
 ## Overview
 
@@ -105,51 +103,12 @@ python sweep.py --data_path /path/to/dakshina --language hi
 python evaluate.py --model_path best_model.pth --data_path /path/to/test_data
 ```
 
-## Results
-
-The best model achieved the following performance metrics on the test set:
-
-| Model Configuration | Test Accuracy | Parameters |
-|---------------------|---------------|------------|
-| LSTM (2-layer, 128d)| 59.12%        | 542K       |
 
 ## Attention Visualization
 
 The model includes functionality to visualize attention weights, showing how the decoder attends to different parts of the input sequence at each decoding step:
 
-![Attention Heatmap](attention_heatmaps.png)
+![Attention Heatmap](heatmaps\allHeatMaps.png)
 
 The attention heatmaps demonstrate how the model focuses on specific input characters when generating each output character, providing insights into the transliteration process.
 
-## Citation
-
-If you use this implementation in your research, please cite:
-
-```
-@misc{attention_transliteration,
-  author = {Your Name},
-  title = {Attention-Based Neural Transliteration},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/username/attention-transliteration}
-}
-```
-
-For the Dakshina dataset:
-
-```
-@inproceedings{roark-etal-2020-processing,
-    title = "Processing South Asian Languages Written in the {L}atin Script: the {D}akshina Dataset",
-    author = "Roark, Brian  and
-      Wolf-Sonkin, Lawrence  and
-      Kirov, Christo  and
-      Mielke, Sabrina J.  and
-      Johny, Cibu  and
-      Demirsahin, Isin  and
-      Hall, Keith",
-    booktitle = "Proceedings of the 12th Language Resources and Evaluation Conference",
-    year = "2020",
-    publisher = "European Language Resources Association",
-    url = "https://aclanthology.org/2020.lrec-1.294"
-}
-```
