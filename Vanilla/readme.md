@@ -115,3 +115,6 @@ The best model architecture found during experimentation:
 - Learning rate: ~0.0019
 - Batch size: 64
 
+## Link
+[Github Link](https://github.com/Rajnishmaurya/da6401_assignment3/tree/main/Vanilla)
+[Wandb Report](https://api.wandb.ai/links/da24m015-iitm/xhh9mouq)
