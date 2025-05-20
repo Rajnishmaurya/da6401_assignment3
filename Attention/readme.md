@@ -112,3 +112,6 @@ The model includes functionality to visualize attention weights, showing how the
 
 The attention heatmaps demonstrate how the model focuses on specific input characters when generating each output character, providing insights into the transliteration process.
 
+## Link
+[Github Link](https://github.com/Rajnishmaurya/da6401_assignment3/tree/main/Attention)  
+[Wandb Report](https://api.wandb.ai/links/da24m015-iitm/xhh9mouq)
