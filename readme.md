@@ -5,8 +5,6 @@ This repository contains implementations of Sequence-to-Sequence (Seq2Seq) model
 1. **Vanilla Seq2Seq** - Basic encoder-decoder RNN architecture
 2. **Attention-based Seq2Seq** - Enhanced architecture with attention mechanism
 
-![Attention Heatmaps](Attention/allHeatMaps.png)
-
 ## Project Structure
 
 ```
@@ -85,6 +83,22 @@ target_word    source_word    count
 |-------|---------------|----------------|----------|
 | Vanilla Seq2Seq | ~34.70% | Faster | Simpler architecture, fewer parameters |
 | Attention Seq2Seq | ~35.56% | Slower | Better handling of long sequences, improved accuracy |
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rajnishmaurya/da6401_assignment3
+   cd da6401_assignment3
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install torch pandas numpy matplotlib seaborn wandb tqdm
+   ```
+
+3. Download the Dakshina dataset from the [official source](https://github.com/google-research-datasets/dakshina) or prepare your own transliteration dataset in the required format.
+
 
 ## Usage
 
