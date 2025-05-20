@@ -2,15 +2,6 @@
 
 This repository contains a PyTorch implementation of an attention-based sequence-to-sequence model for transliteration tasks, specifically designed for Hindi-English transliteration using the Dakshina dataset.
 
-## Table of Contents
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Features](#features)
-- [Dataset](#dataset)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Attention Visualization](#attention-visualization)
-- [Link](#Link for Github and Wandb Report)
 
 ## Overview
 
